@@ -1,0 +1,34 @@
+#board {
+	left: 0px;
+	top: 0px;
+
+	width: 642px;
+	height: 1073px;
+
+	position: absolute;
+}
+
+#game_control {
+	top: 0px;
+	left: 0px;
+	width: 53px;
+	height: 40px;
+
+	position: relative;
+}
+
+#save_button {
+	top: -55px;
+	left: 596px;
+	width: 45px;
+
+	position: relative;
+}
+
+#player_info {
+	top: -40px;
+	left: 60px;
+	width: 100px;
+
+	position: relative;
+}

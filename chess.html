@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel = "stylesheet" href = "chess.css">
+		<title>Chess project</title>
+	</head>
+
+	<body onload = "startChess()">
+		<script src = "chess.js"></script>
+		<div id = "board">
+			<div id = "game_control">
+				<button style = "padding: 17px 10px; background: url(images/left_arrow.png);" onclick = "Chess.prevMove()"> </button>
+				<button style = "padding: 17px 10px; background: url(images/right_arrow.png);" onclick = "Chess.nextMove()"> </button>
+
+				<div id = "player_info"></div>
+
+				<div id = "save_button">
+					<button onclick = "Chess.exportMoveHistory()">Save</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
